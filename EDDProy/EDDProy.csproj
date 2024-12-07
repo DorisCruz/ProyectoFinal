@@ -49,10 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Colas.cs">
+    <Compile Include="Estructuras Lineales\Colas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Colas.Designer.cs">
+    <Compile Include="Estructuras Lineales\Colas.Designer.cs">
       <DependentUpon>Colas.cs</DependentUpon>
     </Compile>
     <Compile Include="Estructuras Lineales\Clases\Cola.cs" />
@@ -86,9 +86,22 @@
       <DependentUpon>frmPilas.cs</DependentUpon>
     </Compile>
     <Compile Include="Graphviz.cs" />
+    <Compile Include="Estructuras Lineales\listasimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\listasimple.Designer.cs">
+      <DependentUpon>listasimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\listadoble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\listadoble.Designer.cs">
+      <DependentUpon>listadoble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Clases\ListaDoble.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Colas.resx">
+    <EmbeddedResource Include="Estructuras Lineales\Colas.resx">
       <DependentUpon>Colas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
@@ -102,6 +115,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Estructuras Lineales\frmPilas.resx">
       <DependentUpon>frmPilas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\listasimple.resx">
+      <DependentUpon>listasimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\listadoble.resx">
+      <DependentUpon>listadoble.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -36,6 +36,7 @@ namespace EDDemo
             this.pilasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listasDoblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +78,8 @@ namespace EDDemo
             this.estructurasLinealesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pilasToolStripMenuItem,
             this.colasToolStripMenuItem,
-            this.listasToolStripMenuItem});
+            this.listasToolStripMenuItem,
+            this.listasDoblesToolStripMenuItem});
             this.estructurasLinealesToolStripMenuItem.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estructurasLinealesToolStripMenuItem.Name = "estructurasLinealesToolStripMenuItem";
             this.estructurasLinealesToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
@@ -105,6 +107,14 @@ namespace EDDemo
             this.listasToolStripMenuItem.Name = "listasToolStripMenuItem";
             this.listasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listasToolStripMenuItem.Text = "Listas";
+            this.listasToolStripMenuItem.Click += new System.EventHandler(this.listasToolStripMenuItem_Click);
+            // 
+            // listasDoblesToolStripMenuItem
+            // 
+            this.listasDoblesToolStripMenuItem.Name = "listasDoblesToolStripMenuItem";
+            this.listasDoblesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listasDoblesToolStripMenuItem.Text = "Listas Dobles";
+            this.listasDoblesToolStripMenuItem.Click += new System.EventHandler(this.listasDoblesToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -133,6 +143,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem colasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listasDoblesToolStripMenuItem;
     }
 }
 

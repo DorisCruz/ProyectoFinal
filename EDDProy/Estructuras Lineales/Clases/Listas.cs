@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace EDDemo.Estructuras_Lineales
 {
@@ -16,11 +17,14 @@ namespace EDDemo.Estructuras_Lineales
     {
         private Nodo Inicio;
         private Nodo Fin;
+        private ListBox listashow;
 
-        public Listas()
+        public Listas(ListBox listashow)
         {
             Inicio = null;
             Fin = null;
+            this.listashow = listashow;
+
         }
 
         public void Insertar(int posicion, string dato)
@@ -111,6 +115,23 @@ namespace EDDemo.Estructuras_Lineales
         public Nodo ObtenerInicio()
         {
             return Inicio;
+        }
+
+        public void ActualizarLista()
+        {
+            if(listashow != null)
+            {
+                listashow.Items.Clear();
+                Nodo Aux = Inicio;
+                while (Aux != null)
+                {
+                    listashow.Items.Add(Aux.Dato);
+                    Aux = Aux.Siguiente;
+
+
+                }
+             
+            }
         }
     }
 }

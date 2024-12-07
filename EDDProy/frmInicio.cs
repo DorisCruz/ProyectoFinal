@@ -58,5 +58,19 @@ namespace EDDemo
             mColas.MdiParent = this;
             mColas.Show();
         }
+
+        private void listasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listasimple lis = new listasimple();   
+            lis.MdiParent = this;
+            lis.Show(); 
+        }
+
+        private void listasDoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listadoble lisd = new listadoble(); 
+            lisd.MdiParent = this;
+            lisd.Show();    
+        }
     }
 }
