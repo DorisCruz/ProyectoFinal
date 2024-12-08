@@ -49,6 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="intercalacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intercalacion.Designer.cs">
+      <DependentUpon>intercalacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntercalacionClas.cs" />
     <Compile Include="Ordenacion\Burbuja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +164,9 @@
     <Compile Include="Recursividad\torresdehanoi.Designer.cs">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="intercalacion.resx">
+      <DependentUpon>intercalacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\Burbuja.resx">
       <DependentUpon>Burbuja.cs</DependentUpon>
     </EmbeddedResource>

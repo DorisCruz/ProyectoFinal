@@ -128,5 +128,14 @@ namespace EDDemo
             burbuja.MdiParent = this;
             burbuja.Show();
         }
+
+        private void intercalacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            intercalacion inte = new intercalacion();
+            inte.MdiParent = this;
+            inte.Show();
+
+
+        }
     }
 }

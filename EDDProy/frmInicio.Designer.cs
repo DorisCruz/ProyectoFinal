@@ -47,6 +47,7 @@ namespace EDDemo
             this.torresDeHanoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metodosDeOrdenacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.burbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -194,7 +195,8 @@ namespace EDDemo
             // metodosDeOrdenacionToolStripMenuItem
             // 
             this.metodosDeOrdenacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.burbujaToolStripMenuItem});
+            this.burbujaToolStripMenuItem,
+            this.intercalacionToolStripMenuItem});
             this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
             this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
@@ -205,6 +207,13 @@ namespace EDDemo
             this.burbujaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.burbujaToolStripMenuItem.Text = "Burbuja";
             this.burbujaToolStripMenuItem.Click += new System.EventHandler(this.burbujaToolStripMenuItem_Click);
+            // 
+            // intercalacionToolStripMenuItem
+            // 
+            this.intercalacionToolStripMenuItem.Name = "intercalacionToolStripMenuItem";
+            this.intercalacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.intercalacionToolStripMenuItem.Text = "Intercalacion";
+            this.intercalacionToolStripMenuItem.Click += new System.EventHandler(this.intercalacionToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -244,6 +253,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem torresDeHanoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem metodosDeOrdenacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem burbujaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
     }
 }
 
