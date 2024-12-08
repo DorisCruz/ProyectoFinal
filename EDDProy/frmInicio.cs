@@ -117,7 +117,9 @@ namespace EDDemo
 
         private void torresDeHanoiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            torresdehanoi tdh = new torresdehanoi();
+            tdh.MdiParent = this;
+            tdh.Show();
         }
     }
 }
