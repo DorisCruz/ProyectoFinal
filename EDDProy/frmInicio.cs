@@ -72,5 +72,33 @@ namespace EDDemo
             lisd.MdiParent = this;
             lisd.Show();    
         }
+
+        private void listaCircularToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listacircular lisc = new listacircular();
+            lisc.MdiParent = this;
+            lisc.Show();    
+        }
+
+        private void sumaDeArreglosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sumararreglos sumarar = new sumararreglos();
+            sumarar.MdiParent = this;
+            sumarar.Show();
+        }
+
+        private void fibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fibonacci fibo = new fibonacci();
+            fibo.MdiParent = this;
+            fibo.Show();    
+        }
+
+        private void factorialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            factorial fac = new factorial();
+            fac.MdiParent = this;   
+            fac.Show();
+        }
     }
 }

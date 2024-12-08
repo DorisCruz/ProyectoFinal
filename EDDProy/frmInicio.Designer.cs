@@ -37,6 +37,11 @@ namespace EDDemo
             this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listasDoblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaCircularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.recursividadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sumaDeArreglosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.factorialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -65,7 +70,8 @@ namespace EDDemo
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.estructurasLinealesToolStripMenuItem,
-            estructurasNoLibealesToolStripMenuItem});
+            estructurasNoLibealesToolStripMenuItem,
+            this.recursividadToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
@@ -79,7 +85,8 @@ namespace EDDemo
             this.pilasToolStripMenuItem,
             this.colasToolStripMenuItem,
             this.listasToolStripMenuItem,
-            this.listasDoblesToolStripMenuItem});
+            this.listasDoblesToolStripMenuItem,
+            this.listaCircularToolStripMenuItem});
             this.estructurasLinealesToolStripMenuItem.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estructurasLinealesToolStripMenuItem.Name = "estructurasLinealesToolStripMenuItem";
             this.estructurasLinealesToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
@@ -116,6 +123,44 @@ namespace EDDemo
             this.listasDoblesToolStripMenuItem.Text = "Listas Dobles";
             this.listasDoblesToolStripMenuItem.Click += new System.EventHandler(this.listasDoblesToolStripMenuItem_Click);
             // 
+            // listaCircularToolStripMenuItem
+            // 
+            this.listaCircularToolStripMenuItem.Name = "listaCircularToolStripMenuItem";
+            this.listaCircularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaCircularToolStripMenuItem.Text = "Lista Circular";
+            this.listaCircularToolStripMenuItem.Click += new System.EventHandler(this.listaCircularToolStripMenuItem_Click);
+            // 
+            // recursividadToolStripMenuItem
+            // 
+            this.recursividadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sumaDeArreglosToolStripMenuItem,
+            this.fibonacciToolStripMenuItem,
+            this.factorialToolStripMenuItem});
+            this.recursividadToolStripMenuItem.Name = "recursividadToolStripMenuItem";
+            this.recursividadToolStripMenuItem.Size = new System.Drawing.Size(86, 22);
+            this.recursividadToolStripMenuItem.Text = "Recursividad";
+            // 
+            // sumaDeArreglosToolStripMenuItem
+            // 
+            this.sumaDeArreglosToolStripMenuItem.Name = "sumaDeArreglosToolStripMenuItem";
+            this.sumaDeArreglosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sumaDeArreglosToolStripMenuItem.Text = "Suma de Arreglos";
+            this.sumaDeArreglosToolStripMenuItem.Click += new System.EventHandler(this.sumaDeArreglosToolStripMenuItem_Click);
+            // 
+            // fibonacciToolStripMenuItem
+            // 
+            this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
+            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fibonacciToolStripMenuItem.Text = "Fibonacci";
+            this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.fibonacciToolStripMenuItem_Click);
+            // 
+            // factorialToolStripMenuItem
+            // 
+            this.factorialToolStripMenuItem.Name = "factorialToolStripMenuItem";
+            this.factorialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.factorialToolStripMenuItem.Text = "Factorial";
+            this.factorialToolStripMenuItem.Click += new System.EventHandler(this.factorialToolStripMenuItem_Click);
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,6 +189,11 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem listasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listasDoblesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listaCircularToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem recursividadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sumaDeArreglosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fibonacciToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem factorialToolStripMenuItem;
     }
 }
 

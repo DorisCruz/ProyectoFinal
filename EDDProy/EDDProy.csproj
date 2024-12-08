@@ -67,6 +67,20 @@
       <DependentUpon>frmArboles.cs</DependentUpon>
     </Compile>
     <Compile Include="Estructuras No Lineales\Clases\NodoBinario.cs" />
+    <Compile Include="Recursividad\factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\factorial.Designer.cs">
+      <DependentUpon>factorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\Clases\Factorialclass.cs" />
+    <Compile Include="Recursividad\Clases\Fibonacci.cs" />
+    <Compile Include="Recursividad\fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\fibonacci.Designer.cs">
+      <DependentUpon>fibonacci.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGrafica.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,13 +113,33 @@
       <DependentUpon>listadoble.cs</DependentUpon>
     </Compile>
     <Compile Include="Estructuras Lineales\Clases\ListaDoble.cs" />
+    <Compile Include="Estructuras Lineales\listacircular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\listacircular.Designer.cs">
+      <DependentUpon>listacircular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Clases\ListaCircular.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursividad\Clases\SumaDeArreglos.cs" />
+    <Compile Include="Recursividad\sumararreglos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\sumararreglos.Designer.cs">
+      <DependentUpon>sumararreglos.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Estructuras Lineales\Colas.resx">
       <DependentUpon>Colas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
       <DependentUpon>frmArboles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\factorial.resx">
+      <DependentUpon>factorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\fibonacci.resx">
+      <DependentUpon>fibonacci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGrafica.resx">
       <DependentUpon>frmGrafica.cs</DependentUpon>
@@ -122,6 +156,9 @@
     <EmbeddedResource Include="Estructuras Lineales\listadoble.resx">
       <DependentUpon>listadoble.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\listacircular.resx">
+      <DependentUpon>listacircular.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -131,6 +168,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Recursividad\sumararreglos.resx">
+      <DependentUpon>sumararreglos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
