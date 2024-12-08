@@ -45,6 +45,8 @@ namespace EDDemo
             this.exponenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaBinariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.torresDeHanoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.metodosDeOrdenacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.burbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -74,7 +76,8 @@ namespace EDDemo
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.estructurasLinealesToolStripMenuItem,
             estructurasNoLibealesToolStripMenuItem,
-            this.recursividadToolStripMenuItem});
+            this.recursividadToolStripMenuItem,
+            this.metodosDeOrdenacionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
@@ -188,6 +191,21 @@ namespace EDDemo
             this.torresDeHanoiToolStripMenuItem.Text = "Torres de hanoi";
             this.torresDeHanoiToolStripMenuItem.Click += new System.EventHandler(this.torresDeHanoiToolStripMenuItem_Click);
             // 
+            // metodosDeOrdenacionToolStripMenuItem
+            // 
+            this.metodosDeOrdenacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.burbujaToolStripMenuItem});
+            this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
+            this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
+            // 
+            // burbujaToolStripMenuItem
+            // 
+            this.burbujaToolStripMenuItem.Name = "burbujaToolStripMenuItem";
+            this.burbujaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.burbujaToolStripMenuItem.Text = "Burbuja";
+            this.burbujaToolStripMenuItem.Click += new System.EventHandler(this.burbujaToolStripMenuItem_Click);
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -224,6 +242,8 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem exponenteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaBinariaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem torresDeHanoiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem metodosDeOrdenacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem burbujaToolStripMenuItem;
     }
 }
 

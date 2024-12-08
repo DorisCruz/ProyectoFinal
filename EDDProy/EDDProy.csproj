@@ -49,6 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ordenacion\Burbuja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenacion\Burbuja.Designer.cs">
+      <DependentUpon>Burbuja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenacion\Clases\burbujacl.cs" />
     <Compile Include="Recursividad\Clases\Hanoi.cs" />
     <Compile Include="Recursividad\Clases\Binaria.cs" />
     <Compile Include="Recursividad\busquedabinaria.cs">
@@ -150,6 +157,9 @@
     <Compile Include="Recursividad\torresdehanoi.Designer.cs">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ordenacion\Burbuja.resx">
+      <DependentUpon>Burbuja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recursividad\busquedabinaria.resx">
       <DependentUpon>busquedabinaria.cs</DependentUpon>
     </EmbeddedResource>

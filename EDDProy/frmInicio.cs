@@ -121,5 +121,12 @@ namespace EDDemo
             tdh.MdiParent = this;
             tdh.Show();
         }
+
+        private void burbujaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Burbuja burbuja = new Burbuja();
+            burbuja.MdiParent = this;
+            burbuja.Show();
+        }
     }
 }
