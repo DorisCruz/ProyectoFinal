@@ -10,10 +10,9 @@ namespace EDDemo
     {
         public int Calcular(int numero)
         {
-            // Caso base
+            
             if (numero <= 1)
                 return 1;
-            // Recursión
             return numero * Calcular(numero - 1);
         }
     }

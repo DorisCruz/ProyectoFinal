@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace EDDemo
 {
-    public partial class factorial : Form
+    public partial class exponente : Form
     {
-        private Factorialclass factorialclass;
-        public factorial()
+        private Exponentes exponentes;
+        public exponente()
         {
             InitializeComponent();
-            factorialclass = new Factorialclass();  
-
+            exponentes = new Exponentes();
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                int numero = (int)numElementos.Value;
+                double baseNumero = double.Parse(txtBase.Text);
+                int exponente = int.Parse(txtExponente.Text);
 
-                int resultado = factorialclass.Calcular(numero);
+                double resultado = exponentes.Calcular(baseNumero, exponente);
 
-                txtResultado.Text = resultado.ToString();
+                lblResultado.Text = $" {resultado}";
             }
             catch (Exception ex)
             {

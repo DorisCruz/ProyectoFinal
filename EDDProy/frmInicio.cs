@@ -100,5 +100,24 @@ namespace EDDemo
             fac.MdiParent = this;   
             fac.Show();
         }
+
+        private void exponenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            exponente ex = new exponente(); 
+            ex.MdiParent = this;
+            ex.Show();  
+        }
+
+        private void busquedaBinariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            busquedabinaria bi = new busquedabinaria();
+            bi.MdiParent = this;
+            bi.Show();
+        }
+
+        private void torresDeHanoiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
