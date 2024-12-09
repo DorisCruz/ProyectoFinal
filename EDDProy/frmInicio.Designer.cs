@@ -48,6 +48,7 @@ namespace EDDemo
             this.metodosDeOrdenacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.burbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quicksortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -196,7 +197,8 @@ namespace EDDemo
             // 
             this.metodosDeOrdenacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.burbujaToolStripMenuItem,
-            this.intercalacionToolStripMenuItem});
+            this.intercalacionToolStripMenuItem,
+            this.quicksortToolStripMenuItem});
             this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
             this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
@@ -214,6 +216,13 @@ namespace EDDemo
             this.intercalacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.intercalacionToolStripMenuItem.Text = "Intercalacion";
             this.intercalacionToolStripMenuItem.Click += new System.EventHandler(this.intercalacionToolStripMenuItem_Click);
+            // 
+            // quicksortToolStripMenuItem
+            // 
+            this.quicksortToolStripMenuItem.Name = "quicksortToolStripMenuItem";
+            this.quicksortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quicksortToolStripMenuItem.Text = "Quicksort";
+            this.quicksortToolStripMenuItem.Click += new System.EventHandler(this.quicksortToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -254,6 +263,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem metodosDeOrdenacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem burbujaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quicksortToolStripMenuItem;
     }
 }
 

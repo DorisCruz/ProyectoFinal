@@ -49,13 +49,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="intercalacion.cs">
+    <Compile Include="Ordenacion\frmQuicksort.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="intercalacion.Designer.cs">
+    <Compile Include="Ordenacion\frmQuicksort.Designer.cs">
+      <DependentUpon>frmQuicksort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenacion\intercalacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenacion\intercalacion.Designer.cs">
       <DependentUpon>intercalacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="IntercalacionClas.cs" />
+    <Compile Include="Ordenacion\Clases\IntercalacionClas.cs" />
     <Compile Include="Ordenacion\Burbuja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,7 @@
       <DependentUpon>Burbuja.cs</DependentUpon>
     </Compile>
     <Compile Include="Ordenacion\Clases\burbujacl.cs" />
+    <Compile Include="Ordenacion\Clases\Quicksort.cs" />
     <Compile Include="Recursividad\Clases\Hanoi.cs" />
     <Compile Include="Recursividad\Clases\Binaria.cs" />
     <Compile Include="Recursividad\busquedabinaria.cs">
@@ -164,7 +171,10 @@
     <Compile Include="Recursividad\torresdehanoi.Designer.cs">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="intercalacion.resx">
+    <EmbeddedResource Include="Ordenacion\frmQuicksort.resx">
+      <DependentUpon>frmQuicksort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenacion\intercalacion.resx">
       <DependentUpon>intercalacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\Burbuja.resx">

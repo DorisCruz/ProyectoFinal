@@ -137,5 +137,12 @@ namespace EDDemo
 
 
         }
+
+        private void quicksortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQuicksort quicksort = new frmQuicksort();
+            quicksort.MdiParent = this; 
+            quicksort.Show();
+        }
     }
 }

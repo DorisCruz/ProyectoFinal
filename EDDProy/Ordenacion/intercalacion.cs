@@ -35,6 +35,7 @@ namespace EDDemo
             int cantidad = (int)numCantidad.Value;
 
             intercalacionN.GenerarNumeros(cantidad);
+            MessageBox.Show("Se genero la lista aleatoriamente");
             MostrarNumeros(intercalacionN.ObtenerNumeros());
         }
 
