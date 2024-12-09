@@ -172,5 +172,12 @@ namespace EDDemo
             di.MdiParent = this;
             di.Show();
         }
+
+        private void busquedaBinariaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmBinaria fb = new frmBinaria();
+            fb.MdiParent = this;
+            fb.Show();
+        }
     }
 }
