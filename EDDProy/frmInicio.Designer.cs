@@ -49,6 +49,7 @@ namespace EDDemo
             this.burbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quicksortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -198,7 +199,8 @@ namespace EDDemo
             this.metodosDeOrdenacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.burbujaToolStripMenuItem,
             this.intercalacionToolStripMenuItem,
-            this.quicksortToolStripMenuItem});
+            this.quicksortToolStripMenuItem,
+            this.radixToolStripMenuItem});
             this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
             this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
@@ -223,6 +225,13 @@ namespace EDDemo
             this.quicksortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.quicksortToolStripMenuItem.Text = "Quicksort";
             this.quicksortToolStripMenuItem.Click += new System.EventHandler(this.quicksortToolStripMenuItem_Click);
+            // 
+            // radixToolStripMenuItem
+            // 
+            this.radixToolStripMenuItem.Name = "radixToolStripMenuItem";
+            this.radixToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radixToolStripMenuItem.Text = "Radix";
+            this.radixToolStripMenuItem.Click += new System.EventHandler(this.radixToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -264,6 +273,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem burbujaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quicksortToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radixToolStripMenuItem;
     }
 }
 

@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ordenacion\frmRadix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenacion\frmRadix.Designer.cs">
+      <DependentUpon>frmRadix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ordenacion\frmQuicksort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,7 @@
     </Compile>
     <Compile Include="Ordenacion\Clases\burbujacl.cs" />
     <Compile Include="Ordenacion\Clases\Quicksort.cs" />
+    <Compile Include="Ordenacion\Clases\Radix.cs" />
     <Compile Include="Recursividad\Clases\Hanoi.cs" />
     <Compile Include="Recursividad\Clases\Binaria.cs" />
     <Compile Include="Recursividad\busquedabinaria.cs">
@@ -171,6 +178,9 @@
     <Compile Include="Recursividad\torresdehanoi.Designer.cs">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ordenacion\frmRadix.resx">
+      <DependentUpon>frmRadix.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\frmQuicksort.resx">
       <DependentUpon>frmQuicksort.cs</DependentUpon>
     </EmbeddedResource>
