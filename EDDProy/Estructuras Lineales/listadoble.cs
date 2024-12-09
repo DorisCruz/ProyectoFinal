@@ -87,5 +87,10 @@ namespace EDDemo
         {
             objLista.VaciarLista(list);
         }
+
+        private void listadoble_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

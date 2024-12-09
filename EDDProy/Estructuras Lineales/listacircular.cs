@@ -76,6 +76,11 @@ namespace EDDemo
         {
             miLista.VaciarLista(list);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

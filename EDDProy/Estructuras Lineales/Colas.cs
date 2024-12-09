@@ -80,5 +80,10 @@ namespace EDDemo
             micola.Mostrar();
             MessageBox.Show("Se vació la cola.");
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -103,5 +103,10 @@ namespace EDDemo
             MessageBox.Show("La pila se vació correctamente.");
             ActualizarListBox(); // Limpia la lista mostrada en pantalla.
         }
+
+        private void frmPilas_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
