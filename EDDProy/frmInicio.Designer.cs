@@ -51,6 +51,8 @@ namespace EDDemo
             this.quicksortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.radixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shellsortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.externosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mezclaNaturalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -156,42 +158,42 @@ namespace EDDemo
             // sumaDeArreglosToolStripMenuItem
             // 
             this.sumaDeArreglosToolStripMenuItem.Name = "sumaDeArreglosToolStripMenuItem";
-            this.sumaDeArreglosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sumaDeArreglosToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.sumaDeArreglosToolStripMenuItem.Text = "Suma de Arreglos";
             this.sumaDeArreglosToolStripMenuItem.Click += new System.EventHandler(this.sumaDeArreglosToolStripMenuItem_Click);
             // 
             // fibonacciToolStripMenuItem
             // 
             this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
-            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.fibonacciToolStripMenuItem.Text = "Fibonacci";
             this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.fibonacciToolStripMenuItem_Click);
             // 
             // factorialToolStripMenuItem
             // 
             this.factorialToolStripMenuItem.Name = "factorialToolStripMenuItem";
-            this.factorialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.factorialToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.factorialToolStripMenuItem.Text = "Factorial";
             this.factorialToolStripMenuItem.Click += new System.EventHandler(this.factorialToolStripMenuItem_Click);
             // 
             // exponenteToolStripMenuItem
             // 
             this.exponenteToolStripMenuItem.Name = "exponenteToolStripMenuItem";
-            this.exponenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exponenteToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.exponenteToolStripMenuItem.Text = "Exponente";
             this.exponenteToolStripMenuItem.Click += new System.EventHandler(this.exponenteToolStripMenuItem_Click);
             // 
             // busquedaBinariaToolStripMenuItem
             // 
             this.busquedaBinariaToolStripMenuItem.Name = "busquedaBinariaToolStripMenuItem";
-            this.busquedaBinariaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.busquedaBinariaToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.busquedaBinariaToolStripMenuItem.Text = "Busqueda Binaria";
             this.busquedaBinariaToolStripMenuItem.Click += new System.EventHandler(this.busquedaBinariaToolStripMenuItem_Click);
             // 
             // torresDeHanoiToolStripMenuItem
             // 
             this.torresDeHanoiToolStripMenuItem.Name = "torresDeHanoiToolStripMenuItem";
-            this.torresDeHanoiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.torresDeHanoiToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.torresDeHanoiToolStripMenuItem.Text = "Torres de hanoi";
             this.torresDeHanoiToolStripMenuItem.Click += new System.EventHandler(this.torresDeHanoiToolStripMenuItem_Click);
             // 
@@ -202,7 +204,8 @@ namespace EDDemo
             this.intercalacionToolStripMenuItem,
             this.quicksortToolStripMenuItem,
             this.radixToolStripMenuItem,
-            this.shellsortToolStripMenuItem});
+            this.shellsortToolStripMenuItem,
+            this.externosToolStripMenuItem});
             this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
             this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
@@ -241,6 +244,21 @@ namespace EDDemo
             this.shellsortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.shellsortToolStripMenuItem.Text = "Shellsort";
             this.shellsortToolStripMenuItem.Click += new System.EventHandler(this.shellsortToolStripMenuItem_Click);
+            // 
+            // externosToolStripMenuItem
+            // 
+            this.externosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mezclaNaturalToolStripMenuItem});
+            this.externosToolStripMenuItem.Name = "externosToolStripMenuItem";
+            this.externosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.externosToolStripMenuItem.Text = "Externos";
+            // 
+            // mezclaNaturalToolStripMenuItem
+            // 
+            this.mezclaNaturalToolStripMenuItem.Name = "mezclaNaturalToolStripMenuItem";
+            this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaNaturalToolStripMenuItem.Text = "Mezcla Natural";
+            this.mezclaNaturalToolStripMenuItem.Click += new System.EventHandler(this.mezclaNaturalToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -284,6 +302,8 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem quicksortToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem radixToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem shellsortToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem externosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mezclaNaturalToolStripMenuItem;
     }
 }
 

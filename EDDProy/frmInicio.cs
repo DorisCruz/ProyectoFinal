@@ -158,5 +158,12 @@ namespace EDDemo
             shell.MdiParent = this;
             shell.Show();
         }
+
+        private void mezclaNaturalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNatural na = new frmNatural();
+            na.MdiParent = this;
+            na.Show();
+        }
     }
 }
