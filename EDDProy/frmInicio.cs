@@ -165,5 +165,12 @@ namespace EDDemo
             na.MdiParent = this;
             na.Show();
         }
+
+        private void mezclaDirectaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDirecta di = new frmDirecta();
+            di.MdiParent = this;
+            di.Show();
+        }
     }
 }

@@ -49,13 +49,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmNatural.cs">
+    <Compile Include="frmDirecta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNatural.Designer.cs">
+    <Compile Include="frmDirecta.Designer.cs">
+      <DependentUpon>frmDirecta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MezclaDirecta.cs" />
+    <Compile Include="Ordenacion\frmNatural.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenacion\frmNatural.Designer.cs">
       <DependentUpon>frmNatural.cs</DependentUpon>
     </Compile>
-    <Compile Include="MezclaNatural.cs" />
+    <Compile Include="Ordenacion\Clases\MezclaNatural.cs" />
     <Compile Include="Ordenacion\frmShellsort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,7 +199,10 @@
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Ordenacion\Clases\Shellsort.cs" />
-    <EmbeddedResource Include="frmNatural.resx">
+    <EmbeddedResource Include="frmDirecta.resx">
+      <DependentUpon>frmDirecta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenacion\frmNatural.resx">
       <DependentUpon>frmNatural.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\frmShellsort.resx">

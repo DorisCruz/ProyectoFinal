@@ -53,6 +53,7 @@ namespace EDDemo
             this.shellsortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.externosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mezclaNaturalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mezclaDirectaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -248,7 +249,8 @@ namespace EDDemo
             // externosToolStripMenuItem
             // 
             this.externosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mezclaNaturalToolStripMenuItem});
+            this.mezclaNaturalToolStripMenuItem,
+            this.mezclaDirectaToolStripMenuItem});
             this.externosToolStripMenuItem.Name = "externosToolStripMenuItem";
             this.externosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.externosToolStripMenuItem.Text = "Externos";
@@ -259,6 +261,13 @@ namespace EDDemo
             this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mezclaNaturalToolStripMenuItem.Text = "Mezcla Natural";
             this.mezclaNaturalToolStripMenuItem.Click += new System.EventHandler(this.mezclaNaturalToolStripMenuItem_Click);
+            // 
+            // mezclaDirectaToolStripMenuItem
+            // 
+            this.mezclaDirectaToolStripMenuItem.Name = "mezclaDirectaToolStripMenuItem";
+            this.mezclaDirectaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaDirectaToolStripMenuItem.Text = "Mezcla Directa";
+            this.mezclaDirectaToolStripMenuItem.Click += new System.EventHandler(this.mezclaDirectaToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -304,6 +313,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem shellsortToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem externosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mezclaNaturalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mezclaDirectaToolStripMenuItem;
     }
 }
 
