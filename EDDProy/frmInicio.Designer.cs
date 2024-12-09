@@ -50,6 +50,7 @@ namespace EDDemo
             this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quicksortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.radixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shellsortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -200,7 +201,8 @@ namespace EDDemo
             this.burbujaToolStripMenuItem,
             this.intercalacionToolStripMenuItem,
             this.quicksortToolStripMenuItem,
-            this.radixToolStripMenuItem});
+            this.radixToolStripMenuItem,
+            this.shellsortToolStripMenuItem});
             this.metodosDeOrdenacionToolStripMenuItem.Name = "metodosDeOrdenacionToolStripMenuItem";
             this.metodosDeOrdenacionToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.metodosDeOrdenacionToolStripMenuItem.Text = "Metodos de ordenacion";
@@ -232,6 +234,13 @@ namespace EDDemo
             this.radixToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.radixToolStripMenuItem.Text = "Radix";
             this.radixToolStripMenuItem.Click += new System.EventHandler(this.radixToolStripMenuItem_Click);
+            // 
+            // shellsortToolStripMenuItem
+            // 
+            this.shellsortToolStripMenuItem.Name = "shellsortToolStripMenuItem";
+            this.shellsortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shellsortToolStripMenuItem.Text = "Shellsort";
+            this.shellsortToolStripMenuItem.Click += new System.EventHandler(this.shellsortToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -274,6 +283,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quicksortToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem radixToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem shellsortToolStripMenuItem;
     }
 }
 

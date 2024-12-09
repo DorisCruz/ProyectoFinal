@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EDDemo
 {
-    internal class Radix
+    public class Radix
     {
         public int[] numeros; 
         public Radix()

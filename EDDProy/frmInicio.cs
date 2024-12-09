@@ -151,5 +151,12 @@ namespace EDDemo
             rad.MdiParent = this;
             rad.Show();
         }
+
+        private void shellsortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmShellsort shell = new frmShellsort();
+            shell.MdiParent = this;
+            shell.Show();
+        }
     }
 }

@@ -13,7 +13,6 @@ namespace EDDemo
     public partial class frmRadix : Form
     {
         private Radix radix; 
-
         public frmRadix()
         {
             InitializeComponent();
@@ -25,11 +24,9 @@ namespace EDDemo
             listBoxNumeros.Items.Clear();
             foreach (int numero in arreglo)
             {
-                listBoxNumeros.Items.Add(numero); 
+                listBoxNumeros.Items.Add(numero);
             }
         }
-
-
         private void btnGenerar_Click_1(object sender, EventArgs e)
         {
             int cantidad = (int)numCantidad.Value;

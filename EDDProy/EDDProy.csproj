@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmShellsort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShellsort.Designer.cs">
+      <DependentUpon>frmShellsort.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ordenacion\frmRadix.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,10 @@
     <Compile Include="Recursividad\torresdehanoi.Designer.cs">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Shellsort.cs" />
+    <EmbeddedResource Include="frmShellsort.resx">
+      <DependentUpon>frmShellsort.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\frmRadix.resx">
       <DependentUpon>frmRadix.cs</DependentUpon>
     </EmbeddedResource>
