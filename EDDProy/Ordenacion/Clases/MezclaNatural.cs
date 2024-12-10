@@ -73,7 +73,6 @@ namespace EDDemo
                     actual.Add(numeros[i]);
                 }
             }
-
             secuencias.Add(actual.ToArray());
             return secuencias;
         }

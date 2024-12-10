@@ -9,12 +9,10 @@ namespace EDDemo
     internal class Quicksort
     {
         private int[] numeros; 
-
         public Quicksort()
         {
             numeros = new int[0]; 
         }
-
         public void GenerarNumeros(int cantidad)
         {
             Random random = new Random();
@@ -64,11 +62,9 @@ namespace EDDemo
 
             return i + 1; 
         }
-
         public int[] ObtenerNumeros()
         {
             return numeros;
         }
-
     }
 }

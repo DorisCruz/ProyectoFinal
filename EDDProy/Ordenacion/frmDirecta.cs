@@ -32,5 +32,10 @@ namespace EDDemo
         {
             mezclaDirecta.Ordenar(listBoxNumeros);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

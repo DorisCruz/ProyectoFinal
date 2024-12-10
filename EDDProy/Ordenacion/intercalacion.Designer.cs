@@ -32,71 +32,97 @@
             this.btnOrdenar = new System.Windows.Forms.Button();
             this.btnGenerar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.numCantidad = new System.Windows.Forms.NumericUpDown();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxNumeros
             // 
+            this.listBoxNumeros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
+            this.listBoxNumeros.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBoxNumeros.ForeColor = System.Drawing.SystemColors.Window;
             this.listBoxNumeros.FormattingEnabled = true;
-            this.listBoxNumeros.Location = new System.Drawing.Point(270, 142);
+            this.listBoxNumeros.Location = new System.Drawing.Point(286, 142);
             this.listBoxNumeros.Name = "listBoxNumeros";
-            this.listBoxNumeros.Size = new System.Drawing.Size(120, 173);
+            this.listBoxNumeros.Size = new System.Drawing.Size(133, 208);
             this.listBoxNumeros.TabIndex = 5;
             // 
             // btnOrdenar
             // 
-            this.btnOrdenar.Location = new System.Drawing.Point(291, 330);
+            this.btnOrdenar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(24)))), ((int)(((byte)(70)))));
+            this.btnOrdenar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrdenar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnOrdenar.Location = new System.Drawing.Point(91, 247);
             this.btnOrdenar.Name = "btnOrdenar";
             this.btnOrdenar.Size = new System.Drawing.Size(75, 23);
             this.btnOrdenar.TabIndex = 4;
             this.btnOrdenar.Text = "Ordenar";
-            this.btnOrdenar.UseVisualStyleBackColor = true;
+            this.btnOrdenar.UseVisualStyleBackColor = false;
             this.btnOrdenar.Click += new System.EventHandler(this.btnOrdenar_Click_1);
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(102, 199);
+            this.btnGenerar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(24)))), ((int)(((byte)(70)))));
+            this.btnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGenerar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnGenerar.Location = new System.Drawing.Point(91, 205);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(75, 23);
             this.btnGenerar.TabIndex = 3;
             this.btnGenerar.Text = "Generar";
-            this.btnGenerar.UseVisualStyleBackColor = true;
+            this.btnGenerar.UseVisualStyleBackColor = false;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(182, 81);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(74, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 13);
+            this.label1.Size = new System.Drawing.Size(345, 29);
             this.label1.TabIndex = 6;
             this.label1.Text = "I N T E R C A L A C I O N";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 147);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Numero de caracteres: ";
-            // 
             // numCantidad
             // 
-            this.numCantidad.Location = new System.Drawing.Point(102, 163);
+            this.numCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
+            this.numCantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numCantidad.ForeColor = System.Drawing.SystemColors.Window;
+            this.numCantidad.Location = new System.Drawing.Point(91, 169);
             this.numCantidad.Name = "numCantidad";
-            this.numCantidad.Size = new System.Drawing.Size(120, 20);
+            this.numCantidad.Size = new System.Drawing.Size(120, 16);
             this.numCantidad.TabIndex = 8;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(255)))), ((int)(((byte)(174)))));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 79);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(597, 10);
+            this.flowLayoutPanel1.TabIndex = 44;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(70, 148);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(162, 13);
+            this.label3.TabIndex = 45;
+            this.label3.Text = "Numero de caracteres en la lista:";
             // 
             // intercalacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(66)))));
+            this.ClientSize = new System.Drawing.Size(495, 399);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.numCantidad);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxNumeros);
             this.Controls.Add(this.btnOrdenar);
@@ -115,7 +141,8 @@
         private System.Windows.Forms.Button btnOrdenar;
         private System.Windows.Forms.Button btnGenerar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numCantidad;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label3;
     }
 }

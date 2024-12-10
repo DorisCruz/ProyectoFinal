@@ -8,9 +8,7 @@ namespace EDDemo
 {
     public class burbujacl
     {
-        private int[] numeros; // Arreglo de números.
-
-        // Genera números aleatorios con una cantidad específica.
+        private int[] numeros; 
         public void GenerarNumeros(int cantidad)
         {
             Random random = new Random();
@@ -18,11 +16,10 @@ namespace EDDemo
 
             for (int i = 0; i < cantidad; i++)
             {
-                numeros[i] = random.Next(1, 101); // Generar números entre 1 y 100.
+                numeros[i] = random.Next(1, 101);
             }
         }
 
-        // Ordena los números utilizando el método de burbuja.
         public void Ordenar()
         {
             int n = numeros.Length;
@@ -32,7 +29,6 @@ namespace EDDemo
                 {
                     if (numeros[j] > numeros[j + 1])
                     {
-                        // Intercambiar números
                         int temp = numeros[j];
                         numeros[j] = numeros[j + 1];
                         numeros[j + 1] = temp;
@@ -41,7 +37,6 @@ namespace EDDemo
             }
         }
 
-        // Obtiene el arreglo actual de números.
         public int[] ObtenerNumeros()
         {
             return numeros;

@@ -23,7 +23,6 @@ namespace EDDemo
                 numeros[i] = random.Next(1, 101); 
             }
         }
-
         public int[] ObtenerNumeros()
         {
             return numeros;
@@ -40,7 +39,6 @@ namespace EDDemo
                 exp *= 10; 
             }
         }
-
         private void SortPorDigito(int exp, Action<int[]> mostrarArreglo)
         {
             int[] output = new int[numeros.Length]; 
