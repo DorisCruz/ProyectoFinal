@@ -73,10 +73,10 @@ namespace EDDemo
             // 
             // arbolesToolStripMenuItem
             // 
-            this.arbolesToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(15)))), ((int)(((byte)(56)))));
-            this.arbolesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Menu;
+            this.arbolesToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.arbolesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.InfoText;
             this.arbolesToolStripMenuItem.Name = "arbolesToolStripMenuItem";
-            this.arbolesToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.arbolesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.arbolesToolStripMenuItem.Text = "Arboles";
             this.arbolesToolStripMenuItem.Click += new System.EventHandler(this.arbolesToolStripMenuItem_Click);
             // 
@@ -112,38 +112,38 @@ namespace EDDemo
             // 
             // pilasToolStripMenuItem
             // 
-            this.pilasToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(48)))));
-            this.pilasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Menu;
+            this.pilasToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.pilasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.InfoText;
             this.pilasToolStripMenuItem.Name = "pilasToolStripMenuItem";
-            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pilasToolStripMenuItem.Text = "Pilas";
             this.pilasToolStripMenuItem.Click += new System.EventHandler(this.pilasToolStripMenuItem_Click);
             // 
             // colasToolStripMenuItem
             // 
             this.colasToolStripMenuItem.Name = "colasToolStripMenuItem";
-            this.colasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.colasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.colasToolStripMenuItem.Text = "Colas";
             this.colasToolStripMenuItem.Click += new System.EventHandler(this.colasToolStripMenuItem_Click);
             // 
             // listasToolStripMenuItem
             // 
             this.listasToolStripMenuItem.Name = "listasToolStripMenuItem";
-            this.listasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.listasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listasToolStripMenuItem.Text = "Listas";
             this.listasToolStripMenuItem.Click += new System.EventHandler(this.listasToolStripMenuItem_Click);
             // 
             // listasDoblesToolStripMenuItem
             // 
             this.listasDoblesToolStripMenuItem.Name = "listasDoblesToolStripMenuItem";
-            this.listasDoblesToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.listasDoblesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listasDoblesToolStripMenuItem.Text = "Listas Dobles";
             this.listasDoblesToolStripMenuItem.Click += new System.EventHandler(this.listasDoblesToolStripMenuItem_Click);
             // 
             // listaCircularToolStripMenuItem
             // 
             this.listaCircularToolStripMenuItem.Name = "listaCircularToolStripMenuItem";
-            this.listaCircularToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.listaCircularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listaCircularToolStripMenuItem.Text = "Lista Circular";
             this.listaCircularToolStripMenuItem.Click += new System.EventHandler(this.listaCircularToolStripMenuItem_Click);
             // 
@@ -163,42 +163,42 @@ namespace EDDemo
             // sumaDeArreglosToolStripMenuItem
             // 
             this.sumaDeArreglosToolStripMenuItem.Name = "sumaDeArreglosToolStripMenuItem";
-            this.sumaDeArreglosToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.sumaDeArreglosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sumaDeArreglosToolStripMenuItem.Text = "Suma de Arreglos";
             this.sumaDeArreglosToolStripMenuItem.Click += new System.EventHandler(this.sumaDeArreglosToolStripMenuItem_Click);
             // 
             // fibonacciToolStripMenuItem
             // 
             this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
-            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fibonacciToolStripMenuItem.Text = "Fibonacci";
             this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.fibonacciToolStripMenuItem_Click);
             // 
             // factorialToolStripMenuItem
             // 
             this.factorialToolStripMenuItem.Name = "factorialToolStripMenuItem";
-            this.factorialToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.factorialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.factorialToolStripMenuItem.Text = "Factorial";
             this.factorialToolStripMenuItem.Click += new System.EventHandler(this.factorialToolStripMenuItem_Click);
             // 
             // exponenteToolStripMenuItem
             // 
             this.exponenteToolStripMenuItem.Name = "exponenteToolStripMenuItem";
-            this.exponenteToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.exponenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exponenteToolStripMenuItem.Text = "Exponente";
             this.exponenteToolStripMenuItem.Click += new System.EventHandler(this.exponenteToolStripMenuItem_Click);
             // 
             // busquedaBinariaToolStripMenuItem
             // 
             this.busquedaBinariaToolStripMenuItem.Name = "busquedaBinariaToolStripMenuItem";
-            this.busquedaBinariaToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.busquedaBinariaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.busquedaBinariaToolStripMenuItem.Text = "Busqueda Binaria";
             this.busquedaBinariaToolStripMenuItem.Click += new System.EventHandler(this.busquedaBinariaToolStripMenuItem_Click);
             // 
             // torresDeHanoiToolStripMenuItem
             // 
             this.torresDeHanoiToolStripMenuItem.Name = "torresDeHanoiToolStripMenuItem";
-            this.torresDeHanoiToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.torresDeHanoiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.torresDeHanoiToolStripMenuItem.Text = "Torres de hanoi";
             this.torresDeHanoiToolStripMenuItem.Click += new System.EventHandler(this.torresDeHanoiToolStripMenuItem_Click);
             // 
@@ -218,35 +218,35 @@ namespace EDDemo
             // burbujaToolStripMenuItem
             // 
             this.burbujaToolStripMenuItem.Name = "burbujaToolStripMenuItem";
-            this.burbujaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.burbujaToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.burbujaToolStripMenuItem.Text = "Burbuja";
             this.burbujaToolStripMenuItem.Click += new System.EventHandler(this.burbujaToolStripMenuItem_Click);
             // 
             // intercalacionToolStripMenuItem
             // 
             this.intercalacionToolStripMenuItem.Name = "intercalacionToolStripMenuItem";
-            this.intercalacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.intercalacionToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.intercalacionToolStripMenuItem.Text = "Intercalacion";
             this.intercalacionToolStripMenuItem.Click += new System.EventHandler(this.intercalacionToolStripMenuItem_Click);
             // 
             // quicksortToolStripMenuItem
             // 
             this.quicksortToolStripMenuItem.Name = "quicksortToolStripMenuItem";
-            this.quicksortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quicksortToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.quicksortToolStripMenuItem.Text = "Quicksort";
             this.quicksortToolStripMenuItem.Click += new System.EventHandler(this.quicksortToolStripMenuItem_Click);
             // 
             // radixToolStripMenuItem
             // 
             this.radixToolStripMenuItem.Name = "radixToolStripMenuItem";
-            this.radixToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radixToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.radixToolStripMenuItem.Text = "Radix";
             this.radixToolStripMenuItem.Click += new System.EventHandler(this.radixToolStripMenuItem_Click);
             // 
             // shellsortToolStripMenuItem
             // 
             this.shellsortToolStripMenuItem.Name = "shellsortToolStripMenuItem";
-            this.shellsortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shellsortToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.shellsortToolStripMenuItem.Text = "Shellsort";
             this.shellsortToolStripMenuItem.Click += new System.EventHandler(this.shellsortToolStripMenuItem_Click);
             // 
@@ -256,20 +256,20 @@ namespace EDDemo
             this.mezclaNaturalToolStripMenuItem,
             this.mezclaDirectaToolStripMenuItem});
             this.externosToolStripMenuItem.Name = "externosToolStripMenuItem";
-            this.externosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.externosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.externosToolStripMenuItem.Text = "Externos";
             // 
             // mezclaNaturalToolStripMenuItem
             // 
             this.mezclaNaturalToolStripMenuItem.Name = "mezclaNaturalToolStripMenuItem";
-            this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.mezclaNaturalToolStripMenuItem.Text = "Mezcla Natural";
             this.mezclaNaturalToolStripMenuItem.Click += new System.EventHandler(this.mezclaNaturalToolStripMenuItem_Click);
             // 
             // mezclaDirectaToolStripMenuItem
             // 
             this.mezclaDirectaToolStripMenuItem.Name = "mezclaDirectaToolStripMenuItem";
-            this.mezclaDirectaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaDirectaToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.mezclaDirectaToolStripMenuItem.Text = "Mezcla Directa";
             this.mezclaDirectaToolStripMenuItem.Click += new System.EventHandler(this.mezclaDirectaToolStripMenuItem_Click);
             // 
@@ -285,14 +285,14 @@ namespace EDDemo
             // busquedaBinariaToolStripMenuItem1
             // 
             this.busquedaBinariaToolStripMenuItem1.Name = "busquedaBinariaToolStripMenuItem1";
-            this.busquedaBinariaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.busquedaBinariaToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
             this.busquedaBinariaToolStripMenuItem1.Text = "Busqueda Binaria";
             this.busquedaBinariaToolStripMenuItem1.Click += new System.EventHandler(this.busquedaBinariaToolStripMenuItem1_Click);
             // 
             // tablasHashToolStripMenuItem
             // 
             this.tablasHashToolStripMenuItem.Name = "tablasHashToolStripMenuItem";
-            this.tablasHashToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tablasHashToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.tablasHashToolStripMenuItem.Text = "Tablas Hash";
             this.tablasHashToolStripMenuItem.Click += new System.EventHandler(this.tablasHashToolStripMenuItem_Click);
             // 
