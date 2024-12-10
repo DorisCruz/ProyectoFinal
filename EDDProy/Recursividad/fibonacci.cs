@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,9 +32,13 @@ namespace EDDemo
             {
                 int nuElementos = (int)numElementos.Value;
 
+                Stopwatch cronometro = Stopwatch.StartNew();
                 int[] resultado = fiibonacci.Calcular(nuElementos);
                 txtResultado.ReadOnly = true;
                 txtResultado.Text = string.Join(", ", resultado);
+
+                cronometro.Stop();
+                tiempo.Text = $"{cronometro.Elapsed.TotalMilliseconds} ms";
             }
             catch (Exception ex)
             {

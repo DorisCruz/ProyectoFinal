@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,27 +24,25 @@ namespace EDDemo
         {
             try
             {
-                // Obtener la cantidad de discos del NumericUpDown
                 int discos = (int)numDiscos.Value;
 
                 if (discos <= 0)
                 {
-                    MessageBox.Show("Por favor, selecciona un número válido de discos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Por favor, selecciona un número válido de discos.");
                     return;
                 }
 
-                // Limpiar movimientos previos
                 hanoi.Movimientos.Clear();
                 lstMovimientos.Items.Clear();
-
-                // Resolver Torres de Hanoi
+                Stopwatch cronometro = Stopwatch.StartNew();
                 hanoi.Resolver(discos, "Origen", "Destino", "Auxiliar");
 
-                // Mostrar los movimientos en el ListBox
                 foreach (string movimiento in hanoi.Movimientos)
                 {
                     lstMovimientos.Items.Add(movimiento);
                 }
+                cronometro.Stop();
+                tiempo.Text = $"{cronometro.Elapsed.TotalMilliseconds} ms";
             }
             catch (Exception ex)
             {

@@ -179,5 +179,12 @@ namespace EDDemo
             fb.MdiParent = this;
             fb.Show();
         }
+
+        private void tablasHashToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHash Ha = new frmHash();
+            Ha.MdiParent = this;
+            Ha.Show();
+        }
     }
 }

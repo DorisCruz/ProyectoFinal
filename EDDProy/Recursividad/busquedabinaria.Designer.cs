@@ -39,15 +39,21 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tiempo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 88);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(2)))), ((int)(((byte)(47)))));
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(185)))), ((int)(((byte)(116)))));
+            this.label1.Location = new System.Drawing.Point(69, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 13);
+            this.label1.Size = new System.Drawing.Size(428, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "B U S Q U E D A    B I N A R I A";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -55,7 +61,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(155, 143);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(121, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 13);
             this.label2.TabIndex = 2;
@@ -65,7 +72,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(155, 204);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(121, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 3;
@@ -74,7 +82,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(128, 243);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(121, 231);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 13);
             this.label4.TabIndex = 4;
@@ -82,44 +91,56 @@
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(309, 159);
+            this.btnGenerar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(24)))), ((int)(((byte)(70)))));
+            this.btnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGenerar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnGenerar.Location = new System.Drawing.Point(250, 122);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(75, 23);
             this.btnGenerar.TabIndex = 7;
             this.btnGenerar.Text = "Generar";
-            this.btnGenerar.UseVisualStyleBackColor = true;
+            this.btnGenerar.UseVisualStyleBackColor = false;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 
             // numCantidad
             // 
-            this.numCantidad.Location = new System.Drawing.Point(158, 159);
+            this.numCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
+            this.numCantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numCantidad.ForeColor = System.Drawing.SystemColors.Window;
+            this.numCantidad.Location = new System.Drawing.Point(124, 128);
             this.numCantidad.Name = "numCantidad";
-            this.numCantidad.Size = new System.Drawing.Size(120, 20);
+            this.numCantidad.Size = new System.Drawing.Size(120, 16);
             this.numCantidad.TabIndex = 8;
             // 
             // lblLista
             // 
             this.lblLista.AutoSize = true;
-            this.lblLista.Location = new System.Drawing.Point(251, 204);
+            this.lblLista.Location = new System.Drawing.Point(217, 169);
             this.lblLista.Name = "lblLista";
             this.lblLista.Size = new System.Drawing.Size(0, 13);
             this.lblLista.TabIndex = 9;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(254, 279);
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(2)))), ((int)(((byte)(47)))));
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBuscar.Location = new System.Drawing.Point(124, 247);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 10;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(241, 243);
+            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
+            this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBuscar.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtBuscar.Location = new System.Drawing.Point(221, 231);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(100, 20);
+            this.txtBuscar.Size = new System.Drawing.Size(100, 13);
             this.txtBuscar.TabIndex = 11;
             // 
             // label5
@@ -133,16 +154,50 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(214, 289);
+            this.lblResultado.Location = new System.Drawing.Point(207, 277);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 13);
             this.lblResultado.TabIndex = 13;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(2)))), ((int)(((byte)(47)))));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 1);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(597, 77);
+            this.flowLayoutPanel1.TabIndex = 47;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(127, 290);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(128, 14);
+            this.label6.TabIndex = 57;
+            this.label6.Text = "Tiempo de ejecucion: ";
+            // 
+            // tiempo
+            // 
+            this.tiempo.AutoSize = true;
+            this.tiempo.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tiempo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tiempo.Location = new System.Drawing.Point(268, 302);
+            this.tiempo.Name = "tiempo";
+            this.tiempo.Size = new System.Drawing.Size(0, 14);
+            this.tiempo.TabIndex = 56;
             // 
             // busquedabinaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(26)))), ((int)(((byte)(66)))));
+            this.ClientSize = new System.Drawing.Size(533, 349);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.tiempo);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtBuscar);
@@ -153,7 +208,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "busquedabinaria";
             this.Text = "busquedabinaria";
             ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).EndInit();
@@ -175,5 +229,8 @@
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label tiempo;
     }
 }

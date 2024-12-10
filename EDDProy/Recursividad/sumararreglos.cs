@@ -56,6 +56,11 @@ namespace EDDemo
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void sumararreglos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

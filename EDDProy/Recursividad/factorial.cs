@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -25,10 +26,12 @@ namespace EDDemo
             try
             {
                 int numero = (int)numElementos.Value;
-
+                Stopwatch cronometro = Stopwatch.StartNew();
                 int resultado = factorialclass.Calcular(numero);
-
+                cronometro.Stop();
                 txtResultado.Text = resultado.ToString();
+
+                tiempo.Text = $"{cronometro.Elapsed.TotalMilliseconds} ms";
             }
             catch (Exception ex)
             {

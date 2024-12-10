@@ -56,6 +56,7 @@ namespace EDDemo
             this.mezclaDirectaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metodosDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaBinariaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tablasHashToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             estructurasNoLibealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -275,7 +276,8 @@ namespace EDDemo
             // metodosDeBusquedaToolStripMenuItem
             // 
             this.metodosDeBusquedaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.busquedaBinariaToolStripMenuItem1});
+            this.busquedaBinariaToolStripMenuItem1,
+            this.tablasHashToolStripMenuItem});
             this.metodosDeBusquedaToolStripMenuItem.Name = "metodosDeBusquedaToolStripMenuItem";
             this.metodosDeBusquedaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.metodosDeBusquedaToolStripMenuItem.Text = "Metodos de busqueda";
@@ -286,6 +288,13 @@ namespace EDDemo
             this.busquedaBinariaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.busquedaBinariaToolStripMenuItem1.Text = "Busqueda Binaria";
             this.busquedaBinariaToolStripMenuItem1.Click += new System.EventHandler(this.busquedaBinariaToolStripMenuItem1_Click);
+            // 
+            // tablasHashToolStripMenuItem
+            // 
+            this.tablasHashToolStripMenuItem.Name = "tablasHashToolStripMenuItem";
+            this.tablasHashToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tablasHashToolStripMenuItem.Text = "Tablas Hash";
+            this.tablasHashToolStripMenuItem.Click += new System.EventHandler(this.tablasHashToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -334,6 +343,7 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem mezclaDirectaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem metodosDeBusquedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaBinariaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tablasHashToolStripMenuItem;
     }
 }
 

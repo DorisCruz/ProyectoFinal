@@ -58,11 +58,11 @@ namespace EDDemo
 
                     if (posicion != -1)
                     {
-                        MessageBox.Show("El número {numeroABuscar} está en la posición {posicion + 1} (índice {posicion}).");
+                        MessageBox.Show("El número " + numeroABuscar + " esta en la posicion " + posicion);
                     }
                     else
                     {
-                        MessageBox.Show("El número {numeroABuscar} no se encuentra en la lista.");
+                        MessageBox.Show("El número " + numeroABuscar + " no esta en la lista");
                     }
                 }
                 else

@@ -56,6 +56,13 @@
     <Compile Include="Busquedas\frmBinaria.Designer.cs">
       <DependentUpon>frmBinaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Busquedas\frmHash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\frmHash.Designer.cs">
+      <DependentUpon>frmHash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\Clase\Hash.cs" />
     <Compile Include="Ordenacion\frmDirecta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +215,9 @@
     <Compile Include="Ordenacion\Clases\Shellsort.cs" />
     <EmbeddedResource Include="Busquedas\frmBinaria.resx">
       <DependentUpon>frmBinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\frmHash.resx">
+      <DependentUpon>frmHash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ordenacion\frmDirecta.resx">
       <DependentUpon>frmDirecta.cs</DependentUpon>
