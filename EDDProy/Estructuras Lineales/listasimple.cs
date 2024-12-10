@@ -18,14 +18,14 @@ namespace EDDemo
         public listasimple()
         {
             InitializeComponent();
-            miLista = new Listas(listashow); // Instancia de la clase Listas.
+            miLista = new Listas(listashow); 
         }
 
 
 
         private void listasimple_Load(object sender, EventArgs e)
         {
-            // Método del evento Load, si se requiere inicialización.
+           
         }
 
         private void listasimple_Load_1(object sender, EventArgs e)
@@ -107,7 +107,7 @@ namespace EDDemo
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            miLista.Vaciar();
         }
     }
 }

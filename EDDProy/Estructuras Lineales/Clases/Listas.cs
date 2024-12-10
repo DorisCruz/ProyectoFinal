@@ -133,5 +133,14 @@ namespace EDDemo.Estructuras_Lineales
              
             }
         }
+        public void Vaciar()
+        {
+            Inicio = null;
+            Fin = null;
+            if (listashow != null)
+            {
+                listashow.Items.Clear(); 
+            }
+        }
     }
 }

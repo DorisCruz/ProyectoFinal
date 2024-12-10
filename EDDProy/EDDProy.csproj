@@ -63,6 +63,7 @@
       <DependentUpon>frmHash.cs</DependentUpon>
     </Compile>
     <Compile Include="Busquedas\Clase\Hash.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Ordenacion\frmDirecta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,6 +292,7 @@
     <EmbeddedResource Include="Recursividad\torresdehanoi.resx">
       <DependentUpon>torresdehanoi.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\Debug\EDDemo.exe.config" />
     <None Include="external\config6" />
     <None Include="external\gvmap.sh" />
     <None Include="packages.config" />
@@ -308,6 +310,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\EDDemo.exe" />
+    <Content Include="bin\Debug\EDDemo.pdb" />
     <Content Include="external\acyclic.exe" />
     <Content Include="external\ANN.dll" />
     <Content Include="external\bcomps.exe" />
@@ -406,6 +410,9 @@
     <Content Include="external\vcruntime140_1.dll" />
     <Content Include="external\xdot.dll" />
     <Content Include="external\zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
