@@ -58,6 +58,7 @@
             // 
             this.txtnum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(80)))));
             this.txtnum.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtnum.ForeColor = System.Drawing.SystemColors.Window;
             this.txtnum.Location = new System.Drawing.Point(64, 164);
             this.txtnum.Name = "txtnum";
             this.txtnum.Size = new System.Drawing.Size(100, 13);

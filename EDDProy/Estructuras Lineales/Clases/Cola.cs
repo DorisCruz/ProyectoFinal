@@ -50,7 +50,7 @@ namespace EDDemo.Estructuras_Lineales.Clases
                 NodoBinario Aux = Primero;
                 while (Aux != null)
                 {
-                    list.Items.Add("[" + Aux.Dato + "]");
+                    list.Items.Add(Aux.Dato);
                     Aux = Aux.Sig;
                 }
             }

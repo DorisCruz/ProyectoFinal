@@ -35,7 +35,7 @@ namespace EDDemo
 
                 if (resultado != -1)
                 {
-                    MessageBox.Show($"Número encontrado en el índice {resultado}.", "Resultado");
+                    MessageBox.Show($"El número esta en el índice {resultado}.", "Resultado");
                 }
                 else
                 {

@@ -13,15 +13,13 @@ namespace EDDemo
     
     public partial class listacircular : Form
     {
-        private ListaCircular miLista; // Instancia de la clase ListaCircular
+        private ListaCircular miLista; 
 
         public listacircular()
         {
             InitializeComponent();
-            miLista = new ListaCircular(); // Inicializamos la lista circular
+            miLista = new ListaCircular(); 
         }
-
-       
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
         {
