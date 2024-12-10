@@ -43,7 +43,7 @@ namespace EDDemo
                 int suma = SumarArreglos.Sumar(arreglo);
                 cronometro.Stop();
 
-                string numerosFormateados = string.Join(" ", arreglo.Select(num => $"{num}]"));
+                string numerosFormateados = string.Join(" ", arreglo.Select(num => $"{num},"));
 
                 arreglo1.Text = numerosFormateados;
 

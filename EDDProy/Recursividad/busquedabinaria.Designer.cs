@@ -115,6 +115,7 @@
             // lblLista
             // 
             this.lblLista.AutoSize = true;
+            this.lblLista.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblLista.Location = new System.Drawing.Point(217, 169);
             this.lblLista.Name = "lblLista";
             this.lblLista.Size = new System.Drawing.Size(0, 13);
